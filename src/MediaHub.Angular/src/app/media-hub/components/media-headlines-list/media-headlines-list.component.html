@@ -1,0 +1,17 @@
+<div class="cc-media-list">
+  <div class="cc-media-row" *ngFor="let item of items; trackBy: trackById">
+    <img class="thumb" [src]="item.thumbnailUrl" alt="" *ngIf="item.thumbnailUrl">
+    <div class="meta">
+      <div class="title">
+        <a [href]="item.url" target="_blank" rel="noreferrer">{{ item.title }}</a>
+      </div>
+      <div class="sub">
+        <span class="creator">{{ item.creatorName || item.platform }}</span>
+        <span class="dot">•</span>
+        <span class="time">{{ item.publishedAtUtc | date:'short' }}</span>
+        <span class="dot" *ngIf="item.durationSeconds">•</span>
+        <span class="dur" *ngIf="item.durationSeconds">{{ item.durationSeconds }}s</span>
+      </div>
+    </div>
+  </div>
+</div>

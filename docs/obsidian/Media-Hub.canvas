@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "file",
+      "file": "docs/obsidian/00_Project-Overview.md",
+      "x": 80,
+      "y": 60,
+      "width": 380,
+      "height": 220
+    },
+    {
+      "id": "n2",
+      "type": "file",
+      "file": "docs/obsidian/01_Goals-and-NonGoals.md",
+      "x": 500,
+      "y": 60,
+      "width": 380,
+      "height": 220
+    },
+    {
+      "id": "n3",
+      "type": "file",
+      "file": "docs/obsidian/02_Personas-and-Use-Cases.md",
+      "x": 920,
+      "y": 60,
+      "width": 380,
+      "height": 220
+    },
+    {
+      "id": "n4",
+      "type": "file",
+      "file": "docs/obsidian/03_Architecture.md",
+      "x": 80,
+      "y": 320,
+      "width": 380,
+      "height": 220
+    },
+    {
+      "id": "n5",
+      "type": "file",
+      "file": "docs/obsidian/04_Data-Model.md",
+      "x": 500,
+      "y": 320,
+      "width": 380,
+      "height": 220
+    },
+    {
+      "id": "n6",
+      "type": "file",
+      "file": "docs/obsidian/05_Platform-Provider-Interfaces.md",
+      "x": 920,
+      "y": 320,
+      "width": 380,
+      "height": 220
+    },
+    {
+      "id": "n7",
+      "type": "file",
+      "file": "docs/obsidian/06_Angular-UI.md",
+      "x": 80,
+      "y": 580,
+      "width": 380,
+      "height": 220
+    },
+    {
+      "id": "n8",
+      "type": "file",
+      "file": "docs/obsidian/07_API-Endpoints.md",
+      "x": 500,
+      "y": 580,
+      "width": 380,
+      "height": 220
+    },
+    {
+      "id": "n9",
+      "type": "file",
+      "file": "docs/obsidian/08_Roadmap.md",
+      "x": 920,
+      "y": 580,
+      "width": 380,
+      "height": 220
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n2",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n3",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n4",
+      "toSide": "left"
+    },
+    {
+      "id": "e4",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n5",
+      "toSide": "left"
+    },
+    {
+      "id": "e5",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n6",
+      "toSide": "left"
+    },
+    {
+      "id": "e6",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n7",
+      "toSide": "left"
+    },
+    {
+      "id": "e7",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n8",
+      "toSide": "left"
+    },
+    {
+      "id": "e8",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n9",
+      "toSide": "left"
+    }
+  ]
+}
