@@ -11,3 +11,9 @@ This zip contains:
 2. Implement YouTube RSS provider (Atom feed) + Podcast RSS provider.
 3. Add ETag support to stream-feed endpoint.
 4. Wire Angular component into your dashboard and test in an OBS Browser Source.
+
+
+## 📖 Documentation
+Detailed documentation can be found in the following sections:
+- [Feature Index](./docs/features/README.md)
+- [Core Capabilities](./docs/features/core-capabilities.md)
