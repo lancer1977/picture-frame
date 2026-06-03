@@ -6,6 +6,15 @@ This zip contains:
 - `src/MediaHub.Api/` : C# API scaffold (Minimal API + Controllers + provider registry).
 - `src/MediaHub.Angular/` : Angular folder scaffold (models/services/components).
 
+## Tags
+
+- picture-frame
+- docs
+- picture
+- frame
+- obs
+- streaming
+
 ## Suggested next steps
 1. Decide storage (SQLite vs Postgres) and replace the in-memory services.
 2. Implement YouTube RSS provider (Atom feed) + Podcast RSS provider.
