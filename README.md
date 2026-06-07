@@ -15,11 +15,13 @@ This zip contains:
 - obs
 - streaming
 
-## Suggested next steps
-1. Decide storage (SQLite vs Postgres) and replace the in-memory services.
-2. Implement YouTube RSS provider (Atom feed) + Podcast RSS provider.
-3. Add ETag support to stream-feed endpoint.
-4. Wire Angular component into your dashboard and test in an OBS Browser Source.
+## Card-backed follow-up
+
+- `picture-frame-persistent-storage.md` — persistent storage for subscriptions and media items
+- `picture-frame-add-solution-file.md` — solution-file bootstrap for easier building
+- `picture-frame-etag-stream-feed.md` — ETag support for `GET /api/channels/{channelId}/stream-feed`
+- Solution entry point: `cd /home/lancer1977/code/picture-frame && dotnet build src/MediaHub.sln`
+- OBS Browser Source wiring belongs to the downstream dashboard/consumer repo and is kept as integration context rather than duplicated here.
 
 
 ## 📖 Documentation
