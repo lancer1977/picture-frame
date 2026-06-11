@@ -7,11 +7,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var dataDirectory = Path.Combine(builder.Environment.ContentRootPath, "App_Data");
+
 // Core services
 builder.Services.AddSingleton<IClock, SystemClock>();
 builder.Services.AddSingleton<IProviderRegistry, ProviderRegistry>();
-builder.Services.AddSingleton<ISubscriptionService, InMemorySubscriptionService>();
-builder.Services.AddSingleton<IMediaStore, InMemoryMediaStore>();
+builder.Services.AddSingleton<ISubscriptionService>(_ => new FileBackedSubscriptionService(dataDirectory));
+builder.Services.AddSingleton<IMediaStore>(_ => new FileBackedMediaStore(dataDirectory));
 builder.Services.AddSingleton<IMediaIngestService, MediaIngestService>();
 builder.Services.AddHostedService<MediaPollingWorker>();
 

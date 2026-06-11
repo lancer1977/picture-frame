@@ -20,7 +20,7 @@ This zip contains:
 - `picture-frame-persistent-storage.md` — persistent storage for subscriptions and media items
 - `picture-frame-add-solution-file.md` — solution-file bootstrap for easier building
 - `picture-frame-etag-stream-feed.md` — ETag support for `GET /api/channels/{channelId}/stream-feed`
-- Solution entry point: `cd /home/lancer1977/code/picture-frame && dotnet build src/MediaHub.sln`
+- Solution entry point: `cd /home/lancer1977/code/picture-frame && dotnet build MediaHub.sln`
 - OBS Browser Source wiring belongs to the downstream dashboard/consumer repo and is kept as integration context rather than duplicated here.
 
 
